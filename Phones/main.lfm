@@ -1,0 +1,85 @@
+object fMain: TfMain
+  Left = 638
+  Height = 500
+  Top = 340
+  Width = 875
+  BorderStyle = bsDialog
+  Caption = 'Телефонный справочник'
+  ClientHeight = 500
+  ClientWidth = 875
+  DesignTimePPI = 120
+  OnClose = FormClose
+  OnCreate = FormCreate
+  Position = poDesktopCenter
+  LCLVersion = '2.2.6.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 34
+    Top = 0
+    Width = 875
+    Align = alTop
+    ClientHeight = 34
+    ClientWidth = 875
+    TabOrder = 0
+    object bAdd: TSpeedButton
+      Left = 0
+      Height = 28
+      Top = 2
+      Width = 142
+      Caption = 'Добавить контакт'
+      OnClick = bAddClick
+    end
+    object bEdit: TSpeedButton
+      Left = 144
+      Height = 28
+      Top = 2
+      Width = 176
+      Caption = 'Редактировать контакт'
+      OnClick = bEditClick
+    end
+    object bDel: TSpeedButton
+      Left = 320
+      Height = 28
+      Top = 2
+      Width = 154
+      Caption = 'Удалить контакт'
+      OnClick = bDelClick
+    end
+    object bSort: TSpeedButton
+      Left = 476
+      Height = 28
+      Top = 2
+      Width = 172
+      Caption = 'Сортировать список'
+      OnClick = bSortClick
+    end
+    object ToExcel: TButton
+      Left = 648
+      Height = 28
+      Top = 2
+      Width = 184
+      Caption = 'Экспортировать в Excel'
+      OnClick = ToExcelClick
+      TabOrder = 0
+    end
+  end
+  object SG: TStringGrid
+    Left = 0
+    Height = 466
+    Top = 34
+    Width = 875
+    Align = alClient
+    ColCount = 3
+    FixedCols = 0
+    RowCount = 1
+    TabOrder = 1
+  end
+  object SaveDialog1: TSaveDialog
+    DefaultExt = '.xlsx'
+    Filter = 'Excel files|*.xlsx'
+    InitialDir = 'Рабочий стол'
+    Options = [ofOverwritePrompt, ofEnableSizing, ofViewDetail]
+    Left = 800
+    Top = 432
+  end
+end

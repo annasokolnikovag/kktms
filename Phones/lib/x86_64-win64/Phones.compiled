@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.2.2\bin\x86_64-win64\fpc.exe" Date="1449427374"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -WG -l -vewnhibq &quot;-FiC:\Users\student\Downloads\Phones (2) (1)\Phones (1)\Phones\lib\x86_64-win64&quot; -FuC:\lazarus\components &quot;-FuC:\Users\student\OneDrive\Рабочий стол\Lada\МДК1&quot; -FuC:\lazarus\lcl\units\x86_64-win64\win32 -FuC:\lazarus\lcl\units\x86_64-win64 -FuC:\lazarus\components\wiki\lazwiki\lib\x86_64-win64 -FuC:\lazarus\components\freetype\lib\x86_64-win64 -FuC:\lazarus\components\codetools\units\x86_64-win64 -FuC:\lazarus\components\lazutils\lib\x86_64-win64 -FuC:\lazarus\packager\units\x86_64-win64 &quot;-FuC:\Users\student\Downloads\Phones (2) (1)\Phones (1)\Phones\&quot; &quot;-FUC:\Users\student\Downloads\Phones (2) (1)\Phones (1)\Phones\lib\x86_64-win64\&quot; &quot;-FEC:\Users\student\Downloads\Phones (2) (1)\Phones (1)\Phones\&quot; &quot;-oC:\Users\student\Downloads\Phones (2) (1)\Phones (1)\Phones\Phones.exe&quot; -dLCL -dLCLwin32 Phones.lpr"/>
+</CONFIG>
